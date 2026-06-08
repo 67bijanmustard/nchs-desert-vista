@@ -716,7 +716,7 @@ section { position: relative; z-index: 1; }
 
 .officers-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   margin-top: 3rem;
 }
@@ -1297,9 +1297,15 @@ footer {
     </div>
     <div class="officer-card reveal">
       <div class="officer-avatar">[ ]</div>
-      <div class="officer-name">Kelly Phong</div>
+      <div class="officer-name">[Co-President]</div>
       <div class="officer-name-cn">联合主席</div>
       <div class="officer-role">Co-President</div>
+    </div>
+    <div class="officer-card reveal">
+      <div class="officer-avatar">[ ]</div>
+      <div class="officer-name">[Vice President]</div>
+      <div class="officer-name-cn">副主席</div>
+      <div class="officer-role">Vice President</div>
     </div>
     <div class="officer-card reveal">
       <div class="officer-avatar">[ ]</div>
@@ -1309,9 +1315,15 @@ footer {
     </div>
     <div class="officer-card reveal">
       <div class="officer-avatar">[ ]</div>
-      <div class="officer-name">[Treasurer]</div>
-      <div class="officer-name-cn">财务</div>
-      <div class="officer-role">Treasurer</div>
+      <div class="officer-name">[Publicity Officer]</div>
+      <div class="officer-name-cn">校外宣传</div>
+      <div class="officer-role">Out-of-School Publicity</div>
+    </div>
+    <div class="officer-card reveal">
+      <div class="officer-avatar">[ ]</div>
+      <div class="officer-name">[Publicity Officer]</div>
+      <div class="officer-name-cn">校内宣传</div>
+      <div class="officer-role">In-School Publicity</div>
     </div>
   </div>
 </section>
@@ -1373,7 +1385,7 @@ footer {
         <div class="req-num">1</div>
         <div class="req-text">
           <div class="req-title">Chinese Language Enrollment</div>
-          <div class="req-desc">Currently enrolled in or have completed at least 2 years of Chinese language study at Desert Vista</div>
+          <div class="req-desc">Currently enrolled in Mandarin 3, Mandarin 4, or AP Mandarin at Desert Vista High School</div>
         </div>
       </div>
       <div class="req-item">
@@ -1386,15 +1398,8 @@ footer {
       <div class="req-item">
         <div class="req-num">3</div>
         <div class="req-text">
-          <div class="req-title">Service Commitment</div>
-          <div class="req-desc">Complete 5 community service hours per semester related to Chinese language or culture</div>
-        </div>
-      </div>
-      <div class="req-item">
-        <div class="req-num">4</div>
-        <div class="req-text">
-          <div class="req-title">Teacher Recommendation</div>
-          <div class="req-desc">One recommendation from your Chinese language teacher</div>
+          <div class="req-title">Cultural Activity Requirement</div>
+          <div class="req-desc">Log 10 cultural activities per year — these can include cultural events, language practice sessions, community outreach, or other chapter-approved activities related to Chinese language and culture</div>
         </div>
       </div>
     </div>
@@ -1425,14 +1430,14 @@ footer {
         <label class="form-label">Current Chinese Course</label>
         <select class="form-select">
           <option value="" disabled selected>Select your course</option>
-          <option>Chinese I</option>
-          <option>Chinese II</option>
-          <option>Chinese III</option>
-          <option>Honors Chinese</option>
+          <option>Mandarin 3</option>
+          <option>Mandarin 4</option>
+          <option>AP Mandarin</option>
           <option>AP Mandarin</option>
         </select>
       </div>
       <button class="form-submit" onclick="handleSubmit(event)">Submit Application</button>
+      <p style="font-size:0.72rem;color:rgba(250,247,240,0.35);margin-top:1rem;line-height:1.5;text-align:center">Responses are collected via Google Forms and reviewed by chapter officers. You will receive a follow-up email within 5 school days.</p>
     </div>
   </div>
 </section>
